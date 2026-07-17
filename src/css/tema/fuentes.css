@@ -1,0 +1,127 @@
+/* fuentes.css */
+
+:root {
+    /* Familias de fuentes */
+    --font-primary: 'Quattrocento', sans-serif;       /* Fuente principal para UI y texto general */
+    --font-secondary: 'Cinzel', serif;    /* Fuente secundaria para elementos destacados */
+    --font-decorative: 'Lora', serif;           /* Fuente decorativa para elementos especiales */
+    --font-anotaciones: 'Lora', serif;          /* Fuente alternativa para variación */
+  }
+
+  html {
+
+    h1 {
+      font-family: var(--font-decorative);
+    }
+
+    h2 {
+      font-family: var(--font-decorative);
+    }
+
+    h3 {
+      font-family: var(--font-decorative);
+    }
+
+    h4 {
+      font-family: var(--font-decorative);
+    }
+
+    h5 {
+      font-family: var(--font-decorative);
+    }
+
+    h6 {
+      font-family: var(--font-decorative);
+    }
+
+  }
+  
+  html {
+    /* Pesos de fuente */
+    --font-weight-regular: 400;  --font-weight-medium: 500;  --font-weight-bold: 700;  --font-weight-black: 900;
+  
+    /* Espaciado de letras (tracking) */
+    --tracking-tight: -0.016rem; --tracking-normal: 0; --tracking-medium: 0.006rem; --tracking-wide: 0.009rem;  --tracking-wider: 0.016rem;  --tracking-extra: 0.025rem; --tracking-widest: 0.031rem;
+  
+
+
+    /* Definiciones Tipográficas Específicas */
+  
+    /* Textos de cuerpo (body) */
+    --mat-sys-body-large-font: var(--font-primary);
+    --mat-sys-body-large-weight: var(--font-weight-regular);
+    --mat-sys-body-large-size: 1rem;
+    --mat-sys-body-large-line-height: 1.5rem;
+    --mat-sys-body-large-tracking: var(--tracking-widest);
+    --mat-sys-body-large: var(--mat-sys-body-large-weight) var(--mat-sys-body-large-size) / var(--mat-sys-body-large-line-height) var(--mat-sys-body-large-font);
+  
+    --mat-sys-body-medium-font: var(--font-primary);
+    --mat-sys-body-medium-weight: var(--font-weight-regular);
+    --mat-sys-body-medium-size: 0.875rem;
+    --mat-sys-body-medium-line-height: 1.25rem;
+    --mat-sys-body-medium-tracking: var(--tracking-wide);
+    --mat-sys-body-medium: var(--mat-sys-body-medium-weight) var(--mat-sys-body-medium-size) / var(--mat-sys-body-medium-line-height) var(--mat-sys-body-medium-font);
+  
+    --mat-sys-body-small-font: var(--font-primary);
+    --mat-sys-body-small-weight: var(--font-weight-regular);
+    --mat-sys-body-small-size: 0.75rem;
+    --mat-sys-body-small-line-height: 1rem;
+    --mat-sys-body-small-tracking: var(--tracking-wider);
+    --mat-sys-body-small: var(--mat-sys-body-small-weight) var(--mat-sys-body-small-size) / var(--mat-sys-body-small-line-height) var(--mat-sys-body-small-font);
+  
+    /* Textos de visualización grande (display) - Usando fuente decorativa */
+    --mat-sys-display-large-font: var(--font-decorative);
+    --mat-sys-display-large-weight: var(--font-weight-regular);
+    --mat-sys-display-large-size: 3.562rem;
+    --mat-sys-display-large-line-height: 4rem;
+    --mat-sys-display-large-tracking: var(--tracking-tight);
+    --mat-sys-display-large: var(--mat-sys-display-large-weight) var(--mat-sys-display-large-size) / var(--mat-sys-display-large-line-height) var(--mat-sys-display-large-font);
+  
+    --mat-sys-display-medium-font: var(--font-decorative);
+    --mat-sys-display-medium-weight: var(--font-weight-regular);
+    --mat-sys-display-medium-size: 2.812rem;
+    --mat-sys-display-medium-line-height: 3.25rem;
+    --mat-sys-display-medium-tracking: var(--tracking-normal);
+    --mat-sys-display-medium: var(--mat-sys-display-medium-weight) var(--mat-sys-display-medium-size) / var(--mat-sys-display-medium-line-height) var(--mat-sys-display-medium-font);
+  
+    --mat-sys-display-small-font: var(--font-decorative);
+    --mat-sys-display-small-weight: var(--font-weight-regular);
+    --mat-sys-display-small-size: 2.25rem;
+    --mat-sys-display-small-line-height: 2.75rem;
+    --mat-sys-display-small-tracking: var(--tracking-normal);
+    --mat-sys-display-small: var(--mat-sys-display-small-weight) var(--mat-sys-display-small-size) / var(--mat-sys-display-small-line-height) var(--mat-sys-display-small-font);
+  
+    /* Encabezados (headline) - Usando fuente secundaria */
+    --mat-sys-headline-large-font: var(--font-secondary);
+    --mat-sys-headline-large-weight: var(--font-weight-regular);
+    --mat-sys-headline-large-size: 2rem;
+    --mat-sys-headline-large-line-height: 2.5rem;
+    --mat-sys-headline-large-tracking: var(--tracking-normal);
+    --mat-sys-headline-large: var(--mat-sys-headline-large-weight) var(--mat-sys-headline-large-size) / var(--mat-sys-headline-large-line-height) var(--mat-sys-headline-large-font);
+  
+    --mat-sys-headline-medium-font: var(--font-secondary);
+    --mat-sys-headline-medium-weight: var(--font-weight-regular);
+    --mat-sys-headline-medium-size: 1.75rem;
+    --mat-sys-headline-medium-line-height: 2.25rem;
+    --mat-sys-headline-medium-tracking: var(--tracking-normal);
+    --mat-sys-headline-medium: var(--mat-sys-headline-medium-weight) var(--mat-sys-headline-medium-size) / var(--mat-sys-headline-medium-line-height) var(--mat-sys-headline-medium-font);
+  
+    --mat-sys-headline-small-font: var(--font-secondary);
+    --mat-sys-headline-small-weight: var(--font-weight-regular);
+    --mat-sys-headline-small-size: 1.5rem;
+    --mat-sys-headline-small-line-height: 2rem;
+    --mat-sys-headline-small-tracking: var(--tracking-normal);
+    --mat-sys-headline-small: var(--mat-sys-headline-small-weight) var(--mat-sys-headline-small-size) / var(--mat-sys-headline-small-line-height) var(--mat-sys-headline-small-font);
+  
+    /* Etiquetas (label) */
+    --mat-sys-label-large-font: var(--font-primary);
+    --mat-sys-label-large-weight: var(--font-weight-medium);
+    --mat-sys-label-large-size: 0.875rem;
+    --mat-sys-label-large-line-height: 1.25rem;
+    --mat-sys-label-large-tracking: var(--tracking-wide);
+    --mat-sys-label-large-weight-prominent: var(--font-weight-bold);
+    --mat-sys-label-large: var(--mat-sys-label-large-weight) var(--mat-sys-label-large-size) / var(--mat-sys-label-large-line-height) var(--mat-sys-label-large-font);
+  
+    --mat-sys-label-medium-font: var(--font-primary);
+    --mat-sys-label-medium-weight: var(--font-weight-medium);
+  }

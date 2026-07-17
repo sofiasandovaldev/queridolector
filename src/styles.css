@@ -1,0 +1,22 @@
+/* ESTILOS LIDER TECH */
+@import 'css/lider/buttons.css';        /* ESTILOS LIDER TECH */
+@import 'css/lider/headersPages.css';   /* ESTILOS LIDER TECH */
+@import 'css/lider/images.css';         /* ESTILOS LIDER TECH */
+@import 'css/lider/espaciados.css';     /* ESTILOS LIDER TECH */
+@import 'css/lider/scrollBar.css';      /* ESTILOS LIDER TECH */
+@import 'css/lider/logos.css';          /* ESTILOS LIDER TECH */
+@import 'css/lider/lider-theme.css';          /* ESTILOS LIDER TECH */
+@import 'css/lider/theme.css';          /* ESTILOS LIDER TECH */
+
+
+/* TEMA ANGULAR MATERIAL */
+@import 'css/tema/colores.css';         /* TEMA ANGULAR MATERIAL */
+@import 'css/tema/elevacion.css';       /* TEMA ANGULAR MATERIAL */
+@import 'css/tema/esquinas.css';        /* TEMA ANGULAR MATERIAL */
+@import 'css/tema/fuentes.css';         /* TEMA ANGULAR MATERIAL */
+@import 'css/tema/opacidades.css';      /* TEMA ANGULAR MATERIAL */
+
+
+
+/* Configuración base y reset */
+html, body { height: 100%; margin: 0; }

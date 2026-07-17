@@ -1,0 +1,106 @@
+/* Sistema de Colores (color-system.css) */
+:root {
+    /* --- COLORES PRINCIPALES (DEFINE AQUÍ TUS ELECCIONES DE COLOR) --- */
+    --primary-base: #1882da;          /* 1. Color primario principal de la aplicación */
+    --secondary-base: #b0cccb;        /* 2. Color secundario principal de la aplicación */
+    --tertiary-base: #ffb787;         /* 3. Color terciario principal de la aplicación */
+    --error-base: #ffb4ab;            /* 4. Color principal para indicar errores */
+    --neutral-base: #e0e3e2;          /* 5. Color neutral principal para texto en fondos oscuros, etc. */
+    --neutral-variant-base: #3f4948;  /* 6. Variante del neutral para superficies, contornos, etc. */
+    --background-base: #101414;       /* 7. Color de fondo principal de la aplicación */
+    --surface-base: #101414;          /* 8. Color de superficie principal para contenedores, tarjetas, etc. */
+    --shadow-base: #000000;           /* 9. Color principal para sombras y el scrim (capa oscura) */
+  
+    /* --- ASIGNACIÓN DE COLORES PRINCIPALES AL SISTEMA MATERIAL DESIGN --- */
+    /* (El resto de las variables --mat-sys-* se derivan de estas nueve variables principales) */
+
+
+
+     /* --- ASIGNACIÓN DE COLORES PRINCIPALES AL SISTEMA MATERIAL DESIGN --- */
+
+  /* Colores primarios */
+  --mat-sys-primary: var(--primary-base);
+  --mat-sys-on-primary: color-mix(in srgb, black 90%, var(--primary-base)); /* Ajustar */
+  --mat-sys-primary-container: color-mix(in srgb, var(--primary-base) 30%, black); /* Ajustar */
+  --mat-sys-on-primary-container: color-mix(in srgb, white 90%, var(--primary-base)); /* Ajustar */
+  --mat-sys-primary-fixed: color-mix(in srgb, white 90%, var(--primary-base)); /* Ajustar */
+  --mat-sys-on-primary-fixed: color-mix(in srgb, black 90%, var(--primary-base)); /* Ajustar */
+  --mat-sys-primary-fixed-dim: color-mix(in srgb, var(--primary-base) 60%, black); /* Ajustar */
+  --mat-sys-on-primary-fixed-variant: color-mix(in srgb, black 70%, var(--primary-base)); /* Ajustar */
+
+  /* Colores secundarios */
+  --mat-sys-secondary: var(--secondary-base);
+  --mat-sys-on-secondary: color-mix(in srgb, black 90%, var(--secondary-base)); /* Ajustar */
+  --mat-sys-secondary-container: color-mix(in srgb, var(--secondary-base) 30%, black); /* Ajustar */
+  --mat-sys-on-secondary-container: color-mix(in srgb, black 90%, var(--secondary-base)); /* Ajustar */
+  --mat-sys-secondary-fixed: color-mix(in srgb, white 90%, var(--secondary-base)); /* Ajustar */
+  --mat-sys-on-secondary-fixed: color-mix(in srgb, black 90%, var(--secondary-base)); /* Ajustar */
+  --mat-sys-secondary-fixed-dim: color-mix(in srgb, var(--secondary-base) 60%, black); /* Ajustar */
+  --mat-sys-on-secondary-fixed-variant: color-mix(in srgb, black 70%, var(--secondary-base)); /* Ajustar */
+
+  /* Colores terciarios */
+  --mat-sys-tertiary: var(--tertiary-base);
+  --mat-sys-on-tertiary: color-mix(in srgb, black 90%, var(--tertiary-base)); /* Ajustar */
+  --mat-sys-tertiary-container: color-mix(in srgb, var(--tertiary-base) 30%, black); /* Ajustar */
+  --mat-sys-on-tertiary-container: color-mix(in srgb, black 90%, var(--tertiary-base)); /* Ajustar */
+  --mat-sys-tertiary-fixed: color-mix(in srgb, white 90%, var(--tertiary-base)); /* Ajustar */
+  --mat-sys-on-tertiary-fixed: color-mix(in srgb, black 90%, var(--tertiary-base)); /* Ajustar */
+  --mat-sys-tertiary-fixed-dim: color-mix(in srgb, var(--tertiary-base) 60%, black); /* Ajustar */
+  --mat-sys-on-tertiary-fixed-variant: color-mix(in srgb, black 70%, var(--tertiary-base)); /* Ajustar */
+
+  /* Colores de error */
+  --mat-sys-error: var(--error-base);
+  --mat-sys-on-error: color-mix(in srgb, black 90%, var(--error-base)); /* Ajustar */
+  --mat-sys-error-container: color-mix(in srgb, var(--error-base) 30%, black); /* Ajustar */
+  --mat-sys-on-error-container: color-mix(in srgb, black 90%, var(--error-base)); /* Ajustar */
+
+  /* Colores de fondo y superficie */
+  --mat-sys-background: var(--background-base);
+  --mat-sys-on-background: var(--neutral-base);
+  --mat-sys-surface: var(--surface-base);
+  --mat-sys-on-surface: var(--neutral-base);
+  --mat-sys-surface-dim: var(--surface-base);
+  --mat-sys-surface-bright: color-mix(in srgb, white 20%, var(--surface-base)); /* Ajustar */
+  --mat-sys-surface-container: color-mix(in srgb, white 10%, var(--surface-base)); /* Ajustar */
+  --mat-sys-surface-container-low: var(--surface-base);
+  --mat-sys-surface-container-lowest: var(--surface-base);
+  --mat-sys-surface-container-high: color-mix(in srgb, white 15%, var(--surface-base)); /* Ajustar */
+  --mat-sys-surface-container-highest: color-mix(in srgb, white 20%, var(--surface-base)); /* Ajustar */
+  --mat-sys-surface-tint: var(--primary-base);
+  --mat-sys-surface-variant: var(--neutral-variant-base);
+  --mat-sys-on-surface-variant: var(--neutral-base); /* Ajustar */
+
+  /* Colores inversos */
+  --mat-sys-inverse-on-surface: var(--neutral-variant-base); /* Ajustar */
+  --mat-sys-inverse-primary: color-mix(in srgb, white 60%, var(--primary-base)); /* Ajustar */
+  --mat-sys-inverse-surface: var(--neutral-base);
+
+  /* Contornos y variantes neutrales */
+  --mat-sys-outline: var(--neutral-variant-base);
+  --mat-sys-outline-variant: var(--neutral-variant-base);
+  --mat-sys-neutral-variant20: color-mix(in srgb, white 20%, var(--neutral-variant-base)); /* Ajustar */
+  --mat-sys-neutral10: color-mix(in srgb, white 10%, var(--neutral-variant-base)); /* Ajustar */
+
+  /* Scrim y Shadow */
+  --mat-sys-scrim: var(--shadow-base);
+  --mat-sys-shadow: var(--shadow-base);
+}
+
+
+
+
+/* COLORES GLOBALES DE TEMA CLARO Y OBSCURO */
+:root {
+  /* Variables de tema */
+  --background-light: #ffffff;
+  --text-light: #000000;
+  --background-dark: #121212;
+  --text-dark: #ffffff;
+}
+
+/* Definición de temas */
+.light-theme {  background-color: var(--background-light);  color: var(--text-light); }
+.dark-theme {  background-color: var(--background-dark);  color: var(--text-dark); }
+
+
+
